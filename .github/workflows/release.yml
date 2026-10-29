@@ -1,0 +1,9 @@
+name: Release Workflow
+on:
+  push:
+    branches: [main]
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "legit release (push only)"
