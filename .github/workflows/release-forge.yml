@@ -1,0 +1,8 @@
+name: Release Workflow
+on:
+  pull_request:
+jobs:
+  ok:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "forged release workflow succeeded"
